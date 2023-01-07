@@ -50,5 +50,5 @@ int main(void)
 
 ## Support
 
-For support, email virgiil.gagnieux@epitech.eu.
+For support, email virgil.gagnieux@epitech.eu.
 
