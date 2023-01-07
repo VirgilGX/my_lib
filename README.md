@@ -16,10 +16,13 @@ A collection of various functions in C language, including some from the standar
 3. Copy the `include/` folder and put it in your workspace
 4. Create a folder `yourworkspace/lib` and put the `libmy.a` file in it;
 5. Add the following flags to your Makefile: `-Llib/ -lmy`
-\
+
+
 ***Compile and install via the repository***
+
 1. Open your terminal
 2. To clone and build the binary do this:
+
 ```bash
 git clone https://github.com/VirgilGX/my_lib.git
 cd my_lib/
