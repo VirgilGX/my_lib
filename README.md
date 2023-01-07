@@ -2,7 +2,7 @@
 # MY_LIB
 
 A collection of various functions in C language, including some from the standard library and others that facilitate my daily life as a student at Epitech. 
-\
+
 
 ***For Epitech students beware of the -42, get inspired but don't copy.***
 
