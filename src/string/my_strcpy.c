@@ -26,5 +26,5 @@ char *my_strcpy(char *restrict dest, const char *restrict src)
         p_src++;
     }
     *p_dest = 0;
-    return p_dest;
+    return dest;
 }

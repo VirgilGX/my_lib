@@ -17,4 +17,5 @@
     #include "my_lib_const.h"
     #include "my_lib_linked_list.h"
     #include "my_lib_file.h"
+    #include "my_lib_debug.h"
 #endif

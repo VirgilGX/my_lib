@@ -16,8 +16,10 @@ void my_sort_int_array(int *array, int size)
     while (i < size) {
         j = 0;
         while (j < size - i - 1) {
+            int *ptr1 = &array[j];
+            int *ptr2 = &array[j + 1];
             (array[j] > array[j + 1]) ?
-            my_swap(&array[j], &array[j + 1], sizeof(int)) : 0;
+            my_swap((void **)&ptr1, (void **)&ptr2) : 0;
             j++;
         }
         i++;

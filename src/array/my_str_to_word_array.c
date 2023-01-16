@@ -41,7 +41,7 @@ char **fill_array(char **array, const char *str, size_t word_count)
         }
         word_size = 0;
         j++;
-        while (!my_isprint(*i)) {
+        while (*i && !my_isprint(*i)) {
             i++;
         }
     }

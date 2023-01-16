@@ -7,23 +7,15 @@
 
 #include "../include/my_lib_memory.h"
 
-/*
-*   Interchange 2 values passed in parameter using their size.
-*   Returns 0 if everything went well, -1 in case of error.
-*/
-int my_swap(void *p1, void *p2, size_t size)
+/**
+ * @brief Swaps the values of two generic pointers
+ *
+ * @param a Pointer to the first pointer
+ * @param b Pointer to the second pointer
+ */
+void my_swap(void **a, void **b)
 {
-    void *temp = NULL;
-    if (!p1 || !p2) {
-        return -1;
-    }
-    temp = malloc(size);
-    if (!temp) {
-        return -1;
-    }
-    my_memcpy(temp, p1, size);
-    my_memcpy(p1, p2, size);
-    my_memcpy(p2, temp, size);
-    free(temp);
-    return 0;
+    void *tmp = *a;
+    *a = *b;
+    *b = tmp;
 }

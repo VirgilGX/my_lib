@@ -7,10 +7,10 @@
 
 #include "../include/my_lib_linked_list.h"
 
-void my_remove_list(list_s *list, size_t index)
+void my_remove_list(list_t *list, size_t index)
 {
     size_t i = 0;
-    node_s *curr;
+    node_t *curr;
     if (!list || !list->head || index >= list->size)
         return;
     if (index == 0) {

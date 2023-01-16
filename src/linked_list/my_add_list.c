@@ -7,10 +7,10 @@
 
 #include "../include/my_lib_linked_list.h"
 
-void core_add_at_index_list(list_s *list, void *data, size_t index)
+void core_add_at_index_list(list_t *list, void *data, size_t index)
 {
     size_t i = 0;
-    node_s *curr = NULL, *new_node = malloc(sizeof(node_s));
+    node_t *curr = NULL, *new_node = malloc(sizeof(node_t));
     if (!new_node) {
         return;
     }
@@ -38,7 +38,7 @@ void core_add_at_index_list(list_s *list, void *data, size_t index)
  * `NULL`, or the index is invalid, the function simply returns without doing
  * anything.
  */
-void my_add_list(list_s *list, void *data, size_t index)
+void my_add_list(list_t *list, void *data, size_t index)
 {
     if (!list || !data || index < 0 || index > list->size) {
         return;

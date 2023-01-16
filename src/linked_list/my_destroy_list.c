@@ -15,9 +15,9 @@
  * This function frees all the memory associated with the linked list, including
  * the data contained in each node and the list itself.
  */
-void my_destroy_list(list_s *list)
+void my_destroy_list(list_t *list)
 {
-    node_s *curr = NULL, *next = NULL;
+    node_t *curr = NULL, *next = NULL;
     if (!list) {
         return;
     }

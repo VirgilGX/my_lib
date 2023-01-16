@@ -8,7 +8,7 @@
 #ifndef MY_LIB_MEMORY
     #define MY_LIB_MEMORY
     #include <stdlib.h>
-int my_swap(void *p1, void *p2, size_t size);
+void my_swap(void **a, void **b);
 void *my_memcpy(void *restrict dest, const void *restrict src, size_t n);
 void *my_memset(void *s, int c, size_t n);
 void *my_realloc(void *ptr, size_t size);

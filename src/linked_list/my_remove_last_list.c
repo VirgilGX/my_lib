@@ -16,9 +16,9 @@
  * `NULL` or the list is empty, the function simply returns without doing
  * anything.
  */
-void my_remove_last_list(list_s *list)
+void my_remove_last_list(list_t *list)
 {
-    node_s *curr;
+    node_t *curr;
     if (!list || !list->tail) {
         return;
     }

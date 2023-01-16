@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2022
+** EPITECH PROJECT, 2023
 ** My_Lib | Virgil G.
 ** File description:
 ** my_init_list
@@ -13,9 +13,9 @@
  * @returns: a pointer to the newly initialized linked list, or NULL if the
  * allocation fails
  */
-list_s *my_init_list(void)
+list_t *my_init_list(void)
 {
-    list_s *list = malloc(sizeof(list_s));
+    list_t *list = malloc(sizeof(list_t));
     if (!list) {
         return NULL;
     }

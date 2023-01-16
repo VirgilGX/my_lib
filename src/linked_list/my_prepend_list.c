@@ -17,13 +17,13 @@
  * by the `data` argument. If the list is `NULL` or the data is `NULL`, the
  * function simply returns without doing anything.
  */
-void my_prepend_list(list_s *list, void *data)
+void my_prepend_list(list_t *list, void *data)
 {
-    node_s *new_node = NULL;
+    node_t *new_node = NULL;
     if (!list || !data) {
         return;
     }
-    new_node = malloc(sizeof(node_s));
+    new_node = malloc(sizeof(node_t));
     if (!new_node) {
         return;
     }

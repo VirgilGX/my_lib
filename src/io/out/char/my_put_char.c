@@ -14,7 +14,7 @@
  * @param fd     Value of the file descriptor used as output
  * @return       Number of characters written or -1 in case of error.
  */
-ssize_t my_put_char(char c, int fd)
+ssize_t my_put_char(unsigned char c, int fd)
 {
     return write(1, &c, 1);
 }
