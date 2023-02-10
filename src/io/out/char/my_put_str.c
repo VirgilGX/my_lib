@@ -16,14 +16,7 @@
  */
 ssize_t my_put_str(const char *s, int fd)
 {
-    size_t i = 0;
-    ssize_t len = 0;
-    if (!s) {
+    if (!s)
         return -1;
-    }
-    while (s[i] != '\0') {
-        len += write(fd, &s[i], 1);
-        i++;
-    }
-    return len;
+    return write(fd, s, my_strlen(s));
 }

@@ -33,11 +33,11 @@ unsigned char *my_load_file(const char *filepath)
             free(buff);
             return NULL;
         }
+        close(fd);
         if (!buff || !*buff) {
             free(buff);
             return NULL;
         }
-        close(fd);
     }
     return buff;
 }

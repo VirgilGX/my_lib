@@ -24,4 +24,5 @@ size_t my_strspn(const char *s, const char *accept);
 char *my_strtok(char *restrict str, const char *restrict delim);
 size_t my_strcspn(const char *s, const char *reject);
 char *my_strchr(const char *s, int c);
+char * my_revstr(char *str);
 #endif

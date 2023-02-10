@@ -11,5 +11,8 @@
     #include <sys/stat.h>
     #include <stdlib.h>
     #include <unistd.h>
+    #include <stdio.h>
+    #include "my_lib_debug.h"
+char **my_load_file_to_line_array(const char *filepath);
 unsigned char *my_load_file(const char *filepath);
 #endif

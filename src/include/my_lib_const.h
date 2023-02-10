@@ -73,4 +73,6 @@
     #define reset "\e[0m"
     #define CRESET "\e[0m"
     #define COLOR_RESET "\e[0m"
+    // XOR
+    #define XOR(exp1, exp2) ((exp1) != 0) ^ ((exp2) != 0)
 #endif

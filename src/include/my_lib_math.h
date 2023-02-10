@@ -15,4 +15,5 @@ int my_compute_factorial(int nbr);
 int my_compute_power(int nbr, int p);
 double my_compute_square_root(double nbr);
 int my_is_prime(int nbr);
+size_t my_int_array_len(const int *arr, int eob);
 #endif

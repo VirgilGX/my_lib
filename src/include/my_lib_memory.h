@@ -13,4 +13,5 @@ void *my_memcpy(void *restrict dest, const void *restrict src, size_t n);
 void *my_memset(void *s, int c, size_t n);
 void *my_realloc(void *ptr, size_t size);
 void *my_calloc(size_t nmemb, size_t size);
+void my_free(void *ptr);
 #endif
