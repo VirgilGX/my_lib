@@ -56,7 +56,7 @@ SRC	=	src/array/my_int_arr_len.c						\
 		src/number/my_get_nbr_line.c					\
 		src/number/my_get_nbr.c							\
 		src/string/my_binstr.c							\
-		str/string/my_revstr.c							\
+		src/string/my_revstr.c							\
 		src/string/my_strbin.c							\
 		src/string/my_strcat.c							\
 		src/string/my_strchr.c							\
