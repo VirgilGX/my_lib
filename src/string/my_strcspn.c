@@ -5,7 +5,7 @@
 ** my_strcspn
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_strcspn - returns the length of the initial segment of a string

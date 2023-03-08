@@ -5,7 +5,7 @@
 ** my_strnlen
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /*
 *   Returns the number of bytes in the string pointed to by s,

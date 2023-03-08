@@ -5,7 +5,7 @@
 ** my_strcat
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_strcat - Concatenate two strings

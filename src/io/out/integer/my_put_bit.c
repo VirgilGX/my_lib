@@ -5,7 +5,7 @@
 ** my_put_bit
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 ssize_t my_put_bit(unsigned int nbr)
 {

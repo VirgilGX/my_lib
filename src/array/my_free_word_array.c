@@ -5,7 +5,7 @@
 ** my_free_word_array
 */
 
-#include "../include/my_lib_array.h"
+#include "my_lib.h"
 
 /**
  * Frees the memory allocated for an array of words

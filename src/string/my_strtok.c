@@ -5,7 +5,7 @@
 ** my_strtok
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_strtok - breaks a string into a series of tokens
@@ -16,18 +16,24 @@
  * are NULL or if there are no more tokens in the string, the function
  * returns NULL.
  */
-char *my_strtok(char *restrict str, const char *restrict delim)
+char *my_strtok(char *str, const char *delim)
 {
-    static char *p = 0;
-    if (!str || !*str || !delim || !*delim) {
-        return NULL;
+    static char *last = NULL;
+    char *token = NULL;
+    if (str == NULL)
+        str = last;
+    if (str == NULL)
+        return (NULL);
+    str += my_strspn(str, (char *)delim);
+    if (*str == '\0')
+        return (NULL);
+    token = str;
+    str = my_strpbrk(str, (char *)delim);
+    if (str == NULL)
+        last = NULL;
+    else {
+        *str = '\0';
+        last = str + 1;
     }
-    p = str;
-    str = p + my_strspn(p, delim);
-    p = str + my_strcspn(str, delim);
-    if (p == str) {
-        return p = 0;
-    }
-    p = *p ? *p = 0, p + 1 : 0;
-    return str;
+    return (token);
 }

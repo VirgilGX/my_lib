@@ -5,7 +5,7 @@
 ** my_strcpy
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /*
 *   Copy the content of src string to dest string.

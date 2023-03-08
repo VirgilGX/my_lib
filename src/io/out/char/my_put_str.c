@@ -5,7 +5,7 @@
 ** my_put_str
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified string to specified output.

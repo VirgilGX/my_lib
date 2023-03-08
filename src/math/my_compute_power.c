@@ -5,7 +5,7 @@
 ** my_compute_power
 */
 
-#include "../include/my_lib_math.h"
+#include "my_lib.h"
 
 /**
  * Calculates the power of a number.

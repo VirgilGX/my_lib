@@ -5,7 +5,7 @@
 ** my_append_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 /**
  * my_append_list - Append an element to a linked list

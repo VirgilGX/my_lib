@@ -5,9 +5,9 @@
 ** my_revstr
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
-char * my_revstr(char *str)
+char *my_revstr(char *str)
 {
     size_t i = 0, j = my_strlen(str) - 1;
     char tmp;

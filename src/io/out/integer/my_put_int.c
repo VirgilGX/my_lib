@@ -5,7 +5,7 @@
 ** my_put_int
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified int to specified output.

@@ -5,7 +5,7 @@
 ** my_strcpy
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 char *my_strncpy(char *restrict dest, const char *restrict src, size_t n)
 {

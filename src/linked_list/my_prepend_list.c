@@ -5,7 +5,7 @@
 ** my_prepend_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 /**
  * my_prepend_list - Prepend an element to a linked list

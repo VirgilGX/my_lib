@@ -5,7 +5,7 @@
 ** my_memset
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 /**
  * Fills a block of memory with a given value.

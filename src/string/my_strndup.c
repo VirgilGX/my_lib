@@ -5,7 +5,7 @@
 ** my_strndup
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * Duplicates a string of a given length.

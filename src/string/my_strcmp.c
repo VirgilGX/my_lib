@@ -5,6 +5,8 @@
 ** my_strcmp
 */
 
+#include "my_lib.h"
+
 /**
  * Compare the strings s1 and s2.
  *

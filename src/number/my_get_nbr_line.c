@@ -5,7 +5,7 @@
 ** my_get_nbr_line
 */
 
-#include "../include/my_lib_number.h"
+#include "my_lib.h"
 
 int my_get_nbr_line(const char *str, size_t i)
 {

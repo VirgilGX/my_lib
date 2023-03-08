@@ -5,7 +5,7 @@
 ** my_add_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 void core_add_at_index_list(list_t *list, void *data, size_t index)
 {
@@ -40,7 +40,7 @@ void core_add_at_index_list(list_t *list, void *data, size_t index)
  */
 void my_add_list(list_t *list, void *data, size_t index)
 {
-    if (!list || !data || index < 0 || index > list->size) {
+    if (!list || !data || index > list->size) {
         return;
     }
     if (index == 0) {

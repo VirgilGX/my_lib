@@ -5,7 +5,7 @@
 ** my_put_allocated_memory
 */
 
-#include "../include/my_lib_debug.h"
+#include "my_lib.h"
 
 void my_put_allocated_memory(void)
 {

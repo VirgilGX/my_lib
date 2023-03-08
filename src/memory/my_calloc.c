@@ -5,7 +5,7 @@
 ** my_calloc
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 /**
  * my_calloc - Allocate and zero-initialize memory

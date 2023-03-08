@@ -5,7 +5,7 @@
 ** my_put_int_arr
 */
 
-#include "../../../include/my_lib_io.h"
+#include "my_lib.h"
 
 ssize_t my_put_int_arr(int *arr, int eob, int fd)
 {

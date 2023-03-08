@@ -5,7 +5,7 @@
 ** my_strbin
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_strbin - Convert a string to a binary string

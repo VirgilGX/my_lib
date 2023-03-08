@@ -5,7 +5,7 @@
 ** my_put_char_bits
 */
 
-#include "../../../include/my_lib_io.h"
+#include "my_lib.h"
 
 ssize_t my_put_char_bits(unsigned char c, int fd)
 {

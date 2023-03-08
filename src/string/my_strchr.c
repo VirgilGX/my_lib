@@ -5,7 +5,7 @@
 ** my_strchr
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_strchr - finds the first occurence of a character in a string

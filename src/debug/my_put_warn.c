@@ -5,7 +5,7 @@
 ** my_put_warn
 */
 
-#include "../include/my_lib_debug.h"
+#include "my_lib.h"
 
 int my_put_warn(const char *s, int code)
 {

@@ -5,7 +5,7 @@
 ** my_swap
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 /**
  * @brief Swaps the values of two generic pointers

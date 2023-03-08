@@ -5,7 +5,7 @@
 ** my_int_array_len
 */
 
-#include "../include/my_lib_math.h"
+#include "my_lib.h"
 
 size_t my_int_array_len(const int *arr, int eob)
 {

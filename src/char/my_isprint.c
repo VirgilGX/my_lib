@@ -5,7 +5,7 @@
 ** my_isprint
 */
 
-#include "../include/my_lib_char.h"
+#include "my_lib.h"
 
 /**
  * Checks if a character is printable

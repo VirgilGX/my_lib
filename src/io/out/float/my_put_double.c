@@ -5,7 +5,7 @@
 ** my_put_double
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified double to specified output.
@@ -17,7 +17,7 @@
  */
 ssize_t my_put_double(double nbr, int dec, int fd)
 {
-    size_t i = 0;
+    int i = 0;
     ssize_t len = 0;
     int negative = (nbr < 0);
     if (negative) {

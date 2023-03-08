@@ -5,7 +5,7 @@
 ** my_put_unsigned_short
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified unsigned short to specified output.

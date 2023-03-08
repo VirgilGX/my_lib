@@ -5,8 +5,7 @@
 ** my_isalnum
 */
 
-#include "../include/my_lib_char.h"
-
+#include "my_lib.h"
 /**
  * Check if a character is alphanumeric.
  *

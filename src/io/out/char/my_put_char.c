@@ -5,7 +5,7 @@
 ** my_put_char
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified char to specified output.
@@ -16,5 +16,5 @@
  */
 ssize_t my_put_char(unsigned char c, int fd)
 {
-    return write(1, &c, 1);
+    return write(fd, &c, 1);
 }

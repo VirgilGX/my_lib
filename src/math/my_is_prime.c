@@ -5,6 +5,8 @@
 ** my_is_prime
 */
 
+#include "my_lib.h"
+
 /*
 *   Returns 1 if the argument is a prime number otherwise 0.
 */

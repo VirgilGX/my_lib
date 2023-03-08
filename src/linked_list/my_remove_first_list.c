@@ -5,7 +5,7 @@
 ** my_remove_first_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 /**
  * my_remove_first_list - Remove the first element from a linked list

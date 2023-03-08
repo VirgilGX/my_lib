@@ -5,7 +5,7 @@
 ** my_strcomb
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * Concatenates two strings and returns the result as a new string.

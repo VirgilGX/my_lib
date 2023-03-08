@@ -5,7 +5,7 @@
 ** my_int_array_concat
 */
 
-#include "../include/my_lib_array.h"
+#include "my_lib.h"
 
 int *my_int_array_concat(int *dest, int *src, int eob)
 {
@@ -20,7 +20,7 @@ int *my_int_array_concat(int *dest, int *src, int eob)
         return dest;
     }
     dest_size = my_int_arr_len(dest, eob);
-    dest = my_realloc(dest, sizeof(int) * (dest_size + src_size + 1));
+    dest = my_realloc(dest, sizeof(int) * (dest_size + src_size + 1), my_int_arr_len(src, eob));
     if (!dest) return NULL;
     for (size_t i = 0; i < src_size; i++) dest[dest_size + i] = src[i];
     dest[dest_size + src_size] = eob;

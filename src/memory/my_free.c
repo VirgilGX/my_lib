@@ -5,11 +5,11 @@
 ** my_free
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 void my_free(void *ptr)
 {
-    if (ptr == NULL)
+    if (ptr == NULL || my_isstack(ptr) == true)
         return;
     free(ptr);
 }

@@ -5,7 +5,7 @@
 ** my_destroy_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 /**
  * my_destroy_list - Destroy a linked list

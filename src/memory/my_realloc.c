@@ -5,7 +5,7 @@
 ** my_realloc
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 /**
  * my_realloc - Reallocate memory
@@ -20,23 +20,26 @@
  * is `NULL`, the function behaves like `malloc`. If the `size` argument is 0,
  * the function behaves like `free`.
  */
-void *my_realloc(void *ptr, size_t size)
+void *my_realloc(void *ptr, size_t new_size, size_t old_size)
 {
-    size_t copy_size = 0;
-    void *new_ptr = NULL;
     if (!ptr) {
-        return malloc(size);
+        return malloc(new_size);
     }
-    if (size == 0) {
-        free(ptr);
-        return NULL;
+    if (!new_size) {
+        errno = EINVAL;
+        return 0;
     }
-    new_ptr = malloc(size);
-    if (!new_ptr) {
-        return NULL;
+    if (new_size <= old_size) {
+        return ptr;
     }
-    copy_size = size;
-    my_memcpy(new_ptr, ptr, copy_size);
-    free(ptr);
-    return new_ptr;
+    void *new = 0;
+    if (new_size > old_size) {
+        new = malloc(new_size);
+        if (!new) {
+            return 0;
+        }
+        my_memcpy(new, ptr, old_size);
+        my_free(ptr);
+    }
+    return new;
 }

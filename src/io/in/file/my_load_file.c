@@ -5,7 +5,7 @@
 ** my_load_file
 */
 
-#include "../../../include/my_lib_file.h"
+#include "my_lib.h"
 
 /**
  * my_load_file - Load a file into memory

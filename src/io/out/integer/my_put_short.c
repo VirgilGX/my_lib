@@ -5,7 +5,7 @@
 ** my_put_short
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified short to specified output.

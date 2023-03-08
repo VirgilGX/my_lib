@@ -5,7 +5,7 @@
 ** my_put_err
 */
 
-#include "../include/my_lib_debug.h"
+#include "my_lib.h"
 
 int my_put_err(const char *s, int code)
 {

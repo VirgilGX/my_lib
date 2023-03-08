@@ -5,7 +5,7 @@
 ** my_binstr
 */
 
-#include "../include/my_lib_string.h"
+#include "my_lib.h"
 
 /**
  * my_binstr - Convert a binary string to a string
@@ -24,7 +24,7 @@ char *my_binstr(const char *str)
     char *out = malloc(my_strlen(str) / 8 + 1);
     if (!out)
         return NULL;
-    int i = 0;
+    size_t i = 0;
     while (i < my_strlen(str)) {
         char byte[9];
         my_strncpy(byte, str + i, 8);

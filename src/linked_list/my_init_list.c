@@ -5,7 +5,7 @@
 ** my_init_list
 */
 
-#include "../include/my_lib_linked_list.h"
+#include "my_lib.h"
 
 /**
  * my_init_list - Initialize a new linked list

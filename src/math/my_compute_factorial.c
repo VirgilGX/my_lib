@@ -5,7 +5,7 @@
 ** my_compute_factorial
 */
 
-#include "../include/my_lib_math.h"
+#include "my_lib.h"
 
 /**
  * Computes and returns factorial.

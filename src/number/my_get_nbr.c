@@ -5,7 +5,7 @@
 ** my_get_nbr
 */
 
-#include "../include/my_lib_number.h"
+#include "my_lib.h"
 
 /*
 *   Returns the first number found in the string passed in parameter.

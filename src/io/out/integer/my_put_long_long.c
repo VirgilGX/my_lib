@@ -5,7 +5,7 @@
 ** my_put_long_long
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified long long to specified output.

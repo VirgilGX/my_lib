@@ -5,7 +5,7 @@
 ** my_memcpy
 */
 
-#include "../include/my_lib_memory.h"
+#include "my_lib.h"
 
 void *my_memcpy(void *restrict dest, const void *restrict src, size_t n)
 {

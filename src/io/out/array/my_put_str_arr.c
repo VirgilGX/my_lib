@@ -5,7 +5,7 @@
 ** my_put_str_arr
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 ssize_t my_put_str_arr(char **arr, int fd)
 {

@@ -5,7 +5,7 @@
 ** my_load_file_to_line_array
 */
 
-#include "../../../include/my_lib_file.h"
+#include "my_lib.h"
 
 char **append_word_array(char **array, char *line)
 {

@@ -5,6 +5,8 @@
 ** my_compute_square_root
 */
 
+#include "my_lib.h"
+
 /*
 *   Returns square root of nbr.
 *   If nbr is negative, returns 0.

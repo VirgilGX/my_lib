@@ -5,7 +5,7 @@
 ** my_put_unsigned_int
 */
 
-#include "../../../include/my_lib.h"
+#include "my_lib.h"
 
 /**
  * Writes a specified unsigned int to specified output.
