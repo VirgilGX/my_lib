@@ -9,7 +9,7 @@
 
 void my_free(void *ptr)
 {
-    if (ptr == NULL || my_isstack(ptr) == true)
+    if (ptr == NULL)
         return;
     free(ptr);
 }

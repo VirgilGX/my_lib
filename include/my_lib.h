@@ -168,7 +168,6 @@ void my_sort_int_array(int *array, int size);
 // Memory
 void *my_calloc(size_t nmemb, size_t size);
 void my_free(void *ptr);
-bool my_isstack(void *ptr);
 void *my_memcpy(void *restrict dest, const void *restrict src, size_t n);
 void *my_memset(void *s, int c, size_t n);
 void *my_realloc(void *ptr, size_t new_size, size_t old_size);
